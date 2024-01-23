@@ -17,10 +17,10 @@ It can also take a file containing links to videos or playlists and pass each li
 3. Run install script as root (root permissions are required to write to /usr/bin)    
 `sudo ./install.sh`
 
-### Option 2: Add to path
+### Option 2: Run locally
 
-1. Open ~/.bashrc for editing    
-`nano ~/.bashrc`
+1. Clone this repository    
+`git clone https://github.com/AShadedBlobfish/yt-audio-extract`
 
-2. Add the line    
-`export PATH="$PATH:[path to yt-audio-extract directory]`
+2. Execute script using the following command    
+`python [path to yt-audio-extract directory]/yt-audio-extract.py`
