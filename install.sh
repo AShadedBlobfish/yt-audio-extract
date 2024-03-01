@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [[ $EUID > 0 ]]
     then echo "Error: Root permissions are required to write to /usr/bin directory. Please run script as root to install to path"
     exit
